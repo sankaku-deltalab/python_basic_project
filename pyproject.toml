@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python_basic_project"
+version = "0.1.0"
+description = ""
+authors = ["Sankaku <sankaku_dlt.45631@outlook.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
